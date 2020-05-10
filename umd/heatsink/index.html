@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Kanan Mehta">
+    <meta name="description" content="My first experience with analysis was a high school internship at the University of Maryland. My project was a simple demonstration of the use of fins on heatsinks. I simulated a small flat heat generator on a larger block with air flowing past the bottom surface to symbolize a processor on a circuit board with a fan for airflow. I used ANSYS APDL to write a few scripts that would automatically lay out fins of the desired shape and size on the bottom of the heatsink.">
+    <meta name="keywords" content="engineer,portfolio,resume,cv">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ANSYS Heatsink Simulations"/>
+<meta name="twitter:description" content="My first experience with analysis was a high school internship at the University of Maryland. My project was a simple demonstration of the use of fins on heatsinks. I simulated a small flat heat generator on a larger block with air flowing past the bottom surface to symbolize a processor on a circuit board with a fan for airflow. I used ANSYS APDL to write a few scripts that would automatically lay out fins of the desired shape and size on the bottom of the heatsink."/>
+
+    <meta property="og:title" content="ANSYS Heatsink Simulations" />
+<meta property="og:description" content="My first experience with analysis was a high school internship at the University of Maryland. My project was a simple demonstration of the use of fins on heatsinks. I simulated a small flat heat generator on a larger block with air flowing past the bottom surface to symbolize a processor on a circuit board with a fan for airflow. I used ANSYS APDL to write a few scripts that would automatically lay out fins of the desired shape and size on the bottom of the heatsink." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kananmehta.github.io/umd/heatsink/" />
+<meta property="article:published_time" content="2015-05-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-05-01T00:00:00+00:00" />
+
+
+    
+      <base href="https://kananmehta.github.io/umd/heatsink/">
+    
+    <title>
+  ANSYS Heatsink Simulations · Home
+</title>
+
+    
+      <link rel="canonical" href="https://kananmehta.github.io/umd/heatsink/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://kananmehta.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://kananmehta.github.io/css/coder-dark.min.e78e80fc3a585a4d1c8fc7f58623b6ff852411e38431a9cd1792877ecaa160f6.css" integrity="sha256-546A/DpYWk0cj8f1hiO2/4UkEeOEManNF5KHfsqhYPY=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+      <link rel="stylesheet" href="https://kananmehta.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://kananmehta.github.io/images/dharma-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kananmehta.github.io/images/dharma-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.70.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-dark">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://kananmehta.github.io/">
+      Home
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/projects/">Projects &amp; Courses</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/nontech/">Non-Technical Work</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/contact/">Contact Me</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>ANSYS Heatsink Simulations</h1>
+    </header>
+
+    <p>My first experience with analysis was a high school internship at the University of Maryland. My project was a simple demonstration of the use of fins on heatsinks. I simulated a small flat heat generator on a larger block with air flowing past the bottom surface to symbolize a processor on a circuit board with a fan for airflow. I used ANSYS APDL to write a few scripts that would automatically lay out fins of the desired shape and size on the bottom of the heatsink. Unsurprisingly, the fin configuration with the most surface area resulted in the lowest temperatures in the device due to the greater effect of convection.</p>
+
+
+
+
+
+
+
+
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+
+
+
+<style>
+#slide-window {
+    position: relative;
+    width: 700px;
+    height: 520px;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+}
+
+#slides-list {
+    width: 700px;
+    height: 520px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0.66s ease;
+    -webkit-transition: all 0.66s ease;
+}
+
+.slide {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    height: 520px;
+    background: #ccc;
+    text-align: center;
+    line-height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform-style: preserve-3d;
+}
+
+.nav {
+    position: relative;
+    z-index: 9;
+    top: 45%;
+    cursor: pointer;
+    color: #3788cb;
+    opacity: 0.2;
+    transition: all 0.66s ease;
+    -webkit-transition: all 0.66s ease;
+}
+
+.nav:hover {
+    opacity: 1.0;
+}
+
+#left {
+    left: 3%;
+    float: left;
+}
+
+#right {
+    right: 3%;
+    float: right;
+}
+</style>
+
+
+<div id="slide-window">
+    <ol id="slides-list">
+                <li class="slide" style="background-image:url(https://kananmehta.github.io/images/heatsink/control.png);"></li>
+                <li class="slide" style="background-image:url(https://kananmehta.github.io/images/heatsink/pin_fin2.png);"></li>
+                <li class="slide" style="background-image:url(https://kananmehta.github.io/images/heatsink/rec_fin3.png);"></li>
+    </ol>
+    <span class="nav fa fa-chevron-left fa-3x" id="left"></span>
+    <span class="nav fa fa-chevron-right fa-3x" id="right"></span>
+</div>
+
+<script>
+sliderJQuery = jQuery.noConflict();
+sliderJQuery(function( $ ) {
+    $.global = new Object();
+    $.global.total = 0;
+
+    $(document).ready(function () {
+        var slideWindowWidth = $('#slide-window').width();
+        var slideCount = $('#slides-list li').length;
+        var totalSlidesWidth = slideCount * slideWindowWidth;
+
+        $.global.item = 0;
+        $.global.total = slideCount;
+
+        $('.slide').css('width', slideWindowWidth + 'px');
+        $('#slides-list').css('width', totalSlidesWidth + 'px');
+
+        $('#left').click(function () {
+            resetAutoSlide();
+            performSlide('back');
+        });
+
+        $('#right').click(function () {
+            resetAutoSlide();
+            performSlide('forward');
+        });
+
+    });
+
+    function performSlide(direction) {
+        if (direction == 'back') {
+            var nextSlideId = $.global.item - 1;
+        }
+        if (direction == 'forward') {
+            var nextSlideId = $.global.item + 1;
+        }
+
+        if (nextSlideId == -1) {
+             
+            moveCss($.global.total - 1);
+        } else if (nextSlideId == $.global.total) {
+             
+            moveCss(0);
+        } else {
+             
+            moveCss(nextSlideId);
+        }
+    }
+
+    function moveCss(nextSlideId) {
+        var slideWindowWidth = $('#slide-window').width();
+        var margin = slideWindowWidth * nextSlideId;
+
+        $('#slides-list').css('transform', 'translate3d(-' + margin + 'px,0px,0px)');
+
+        $.global.item = nextSlideId;
+    }
+
+    
+      var autoSlide = parseInt("0", 10);
+      var autoSlideInterval;
+      function resetAutoSlide(){
+        if(autoSlide) {
+          if(autoSlideInterval) {
+            clearInterval(autoSlideInterval);
+          }
+          autoSlideInterval = setInterval(function(){
+            performSlide('forward');
+          }, autoSlide)
+        }
+      }
+      resetAutoSlide();
+});
+</script>
+
+  </article>
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Kanan Mehta">
+    <meta name="description" content="The second solids simulation I conducted was a beam-bending problem. First I worked out the problem analytically given the boundary conditions (bending and torsion) then ran a similar simulation in ANSYS. The simulation resulted in a slightly larger displacement and significantly lower twist angle, possibly due to the fact that the analytical solution did not consider the endcap used in the simulation geometry. Next, a modal analysis was performed in ANSYS revealing three mode frequencies characterized by strong z-axis bending, strong y-axis bending, and torsion respectively (the shapes for these last two modes shown in the last two images below).">
+    <meta name="keywords" content="engineer,portfolio,resume,cv">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cantilever Beam Analysis"/>
+<meta name="twitter:description" content="The second solids simulation I conducted was a beam-bending problem. First I worked out the problem analytically given the boundary conditions (bending and torsion) then ran a similar simulation in ANSYS. The simulation resulted in a slightly larger displacement and significantly lower twist angle, possibly due to the fact that the analytical solution did not consider the endcap used in the simulation geometry. Next, a modal analysis was performed in ANSYS revealing three mode frequencies characterized by strong z-axis bending, strong y-axis bending, and torsion respectively (the shapes for these last two modes shown in the last two images below)."/>
+
+    <meta property="og:title" content="Cantilever Beam Analysis" />
+<meta property="og:description" content="The second solids simulation I conducted was a beam-bending problem. First I worked out the problem analytically given the boundary conditions (bending and torsion) then ran a similar simulation in ANSYS. The simulation resulted in a slightly larger displacement and significantly lower twist angle, possibly due to the fact that the analytical solution did not consider the endcap used in the simulation geometry. Next, a modal analysis was performed in ANSYS revealing three mode frequencies characterized by strong z-axis bending, strong y-axis bending, and torsion respectively (the shapes for these last two modes shown in the last two images below)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kananmehta.github.io/caltech/cantilever/" />
+<meta property="article:published_time" content="2019-06-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-06-01T00:00:00+00:00" />
+
+
+    
+      <base href="https://kananmehta.github.io/caltech/cantilever/">
+    
+    <title>
+  Cantilever Beam Analysis · Home
+</title>
+
+    
+      <link rel="canonical" href="https://kananmehta.github.io/caltech/cantilever/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://kananmehta.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://kananmehta.github.io/css/coder-dark.min.e78e80fc3a585a4d1c8fc7f58623b6ff852411e38431a9cd1792877ecaa160f6.css" integrity="sha256-546A/DpYWk0cj8f1hiO2/4UkEeOEManNF5KHfsqhYPY=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+      <link rel="stylesheet" href="https://kananmehta.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://kananmehta.github.io/images/dharma-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kananmehta.github.io/images/dharma-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.70.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-dark">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://kananmehta.github.io/">
+      Home
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/projects/">Projects &amp; Courses</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/nontech/">Non-Technical Work</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/contact/">Contact Me</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Cantilever Beam Analysis</h1>
+    </header>
+
+    <p>The second solids simulation I conducted was a beam-bending problem. First I worked out the problem analytically given the boundary conditions (bending and torsion) then ran a similar simulation in ANSYS. The simulation resulted in a slightly larger displacement and significantly lower twist angle, possibly due to the fact that the analytical solution did not consider the endcap used in the simulation geometry. Next, a modal analysis was performed in ANSYS revealing three mode frequencies characterized by strong z-axis bending, strong y-axis bending, and torsion respectively (the shapes for these last two modes shown in the last two images below). Given that the beam loaded under the provided boundary condition appears to be characterized by torsion and y-axis bending, it is likely that these two modes would be excited if the boundary conditions were suddenly removed and the system allowed to vibrate freely.</p>
+<p>For the final set of experiments in the course, we learned to use strain gages by conducting a cantilever beam test to verify Poisson&rsquo;s ratio for aluminum.</p>
+<p>The cantilever beam test was quite straightforward so two variants were conducted: load controlled, where weights were incrementally added to the edge of the beam, and displacement controlled where a micrometer was used to deflect the beam. The strain gage data was converted in MATLAB using the strain transformation equations and plotted against the loads. These relationships were analyzed with Euler-Bernoulli beam theory, yielding an estimate for the elastic modulus of 68.7 GPa, very close to the tabulated value of 69 GPa for aluminum. All this data in turn could be used to compute Poisson&rsquo;s ratio. The average value found between the trials was .306, fairly close to the tabulated value of 0.33.</p>
+<p>
+
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+  
+<link rel="stylesheet" href="https://kananmehta.github.io/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/static.png');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/static.png" alt="Static torsion and bending"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/static.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Static torsion and bending</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/modal1.png');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/modal1.png" alt="Modal analysis, 96 Hz"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/modal1.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Modal analysis, 96 Hz</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/modal4.png');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/modal4.png" alt="Modal analysis, 160 Hz"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/modal4.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Modal analysis, 160 Hz</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/cant_setup.jpg');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/cant_setup.jpg" alt="Cantilever experiment"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/cant_setup.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Cantilever experiment</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/62b.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/62b.bmp" alt="Strain vs Load"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/62b.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Strain vs Load</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/62e.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/62e.bmp" alt="Max Principal Strain vs Load"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/62e.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Max Principal Strain vs Load</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/62f.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/62f.bmp" alt="Min Principal Strain vs Load"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/62f.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Min Principal Strain vs Load</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/62g.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/62g.bmp" alt="Max Shear Strain vs Load"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/62g.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Max Shear Strain vs Load</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/63a.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/63a.bmp" alt="Strain vs Displacement"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/63a.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Strain vs Displacement</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/63d.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/63d.bmp" alt="Max Principal Strain vs Displacement"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/63d.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Max Principal Strain vs Displacement</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/63e.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/63e.bmp" alt="Min Principal Strain vs Displacement"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/63e.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Min Principal Strain vs Displacement</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/63f.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/63f.bmp" alt="Max Shear Strain vs Displacement"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/63f.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Max Shear Strain vs Displacement</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/65f.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/65f.bmp" alt="Load vs Deflection"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/65f.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Load vs Deflection</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/65ha.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/65ha.bmp" alt="Calculated Poisson&#39;s vs Applied Load"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/65ha.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Calculated Poisson&#39;s vs Applied Load</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/65hb.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/65hb.bmp" alt="Calculated Poisson&#39;s vs Applied Deflection"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/65hb.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Calculated Poisson&#39;s vs Applied Deflection</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/cantilever/65j.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/cantilever/65j.bmp" alt="Max Principal Strain vs Min Principal Strain"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/cantilever/65j.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Max Principal Strain vs Min Principal Strain</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+</div>
+ 
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://kananmehta.github.io/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</p>
+
+  </article>
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

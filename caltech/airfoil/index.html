@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Kanan Mehta">
+    <meta name="description" content="For the simulations assignment, we tested different mesh geometries and simulation settings to see which would most accurately predict the lift/drag coefficients. I found that the inviscid simulation yielded the most accurate lift coefficient, while the steady-state model did not even converge to a solution. The transient model captured the turbulent effects that would probably be observed in the real world, but yielded very poor estimates for the lift and drag coefficients.">
+    <meta name="keywords" content="engineer,portfolio,resume,cv">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Airfoil Analysis"/>
+<meta name="twitter:description" content="For the simulations assignment, we tested different mesh geometries and simulation settings to see which would most accurately predict the lift/drag coefficients. I found that the inviscid simulation yielded the most accurate lift coefficient, while the steady-state model did not even converge to a solution. The transient model captured the turbulent effects that would probably be observed in the real world, but yielded very poor estimates for the lift and drag coefficients."/>
+
+    <meta property="og:title" content="Airfoil Analysis" />
+<meta property="og:description" content="For the simulations assignment, we tested different mesh geometries and simulation settings to see which would most accurately predict the lift/drag coefficients. I found that the inviscid simulation yielded the most accurate lift coefficient, while the steady-state model did not even converge to a solution. The transient model captured the turbulent effects that would probably be observed in the real world, but yielded very poor estimates for the lift and drag coefficients." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kananmehta.github.io/caltech/airfoil/" />
+<meta property="article:published_time" content="2019-03-01T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-03-01T00:00:00+00:00" />
+
+
+    
+      <base href="https://kananmehta.github.io/caltech/airfoil/">
+    
+    <title>
+  Airfoil Analysis · Home
+</title>
+
+    
+      <link rel="canonical" href="https://kananmehta.github.io/caltech/airfoil/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://kananmehta.github.io/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://kananmehta.github.io/css/coder-dark.min.e78e80fc3a585a4d1c8fc7f58623b6ff852411e38431a9cd1792877ecaa160f6.css" integrity="sha256-546A/DpYWk0cj8f1hiO2/4UkEeOEManNF5KHfsqhYPY=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+      <link rel="stylesheet" href="https://kananmehta.github.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://kananmehta.github.io/images/dharma-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kananmehta.github.io/images/dharma-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.70.0" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-dark">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://kananmehta.github.io/">
+      Home
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/projects/">Projects &amp; Courses</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/nontech/">Non-Technical Work</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://kananmehta.github.io/contact/">Contact Me</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Airfoil Analysis</h1>
+    </header>
+
+    <p>For the simulations assignment, we tested different mesh geometries and simulation settings to see which would 
+most accurately predict the lift/drag coefficients. I found that the inviscid simulation yielded the most accurate lift 
+coefficient, while the steady-state model did not even converge to a solution. The transient model captured the 
+turbulent effects that would probably be observed in the real world, but yielded very poor estimates for the lift 
+and drag coefficients. I later learned that I had one of the most accurate estimates in the class because I had used an 
+&lsquo;inflation layer&rsquo; in my mesh, which added increased definition directly outside the airfoil to allow for superior 
+modeling of the boundary layer.</p>
+<p>In the second term, we conducted actual water tunnel experiments on the same airfoil. Using the PIV (particle-image-velocimetry) data gathered upstream, I was able to estimate a freestream velocity. Data was also gathered from the trailing edge of the airfoil, allowing me to derive drag coefficients from Bernoulli&rsquo;s and the Navier-Stokes equation. Whether calculated using the experimentally-determined freestream velocity or that provided by the water pump manufacturer, there is clearly a sharp increase in drag after the airfoil is tilted beyond about 10 degrees. I also made vorticity plot for the flows, and found that there was severe vortex shedding at the higher angles. By performing an FFT, I found the shedding frequency to be about 6.3 Hz, very close to the theoretical estimate.</p>
+<p>
+
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
+  
+<link rel="stylesheet" href="https://kananmehta.github.io/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/airfoil/foil_mesh.png');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/airfoil/foil_mesh.png" alt="Mesh"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/airfoil/foil_mesh.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Mesh</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/airfoil/foil_contour.png');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/airfoil/foil_contour.png" alt="Velocity plot, simulated (AoA = 6)"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/airfoil/foil_contour.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Velocity plot, simulated (AoA = 6)</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/airfoil/water_tunnel.png');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/airfoil/water_tunnel.png" alt="Water tunnel"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/airfoil/water_tunnel.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Water tunnel</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/airfoil/foil_piv_velocity.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/airfoil/foil_piv_velocity.bmp" alt="Velocity plot, experimental (AoA = -15)"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/airfoil/foil_piv_velocity.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Velocity plot, experimental (AoA = -15)</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/airfoil/angle_of_attack_vs_drag.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/airfoil/angle_of_attack_vs_drag.bmp" alt="AoA vs Cd, experimental"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/airfoil/angle_of_attack_vs_drag.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>AoA vs Cd, experimental</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/images/airfoil/vorticity.bmp');">
+      <img itemprop="thumbnail" src="https://kananmehta.github.io/images/airfoil/vorticity.bmp" alt="Vorticity plot, experimental (AoA = -15)"/>
+    </div>
+    <a href="https://kananmehta.github.io/images/airfoil/vorticity.bmp" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Vorticity plot, experimental (AoA = -15)</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+</div>
+ 
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://kananmehta.github.io/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</p>
+
+  </article>
+</section>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+
+      </div>
+
+      
+    </main>
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

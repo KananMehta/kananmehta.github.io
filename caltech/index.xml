@@ -1,0 +1,1977 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Caltech-Related Projects on Home</title>
+    <link>https://kananmehta.github.io/caltech/</link>
+    <description>Recent content in Caltech-Related Projects on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kananmehta.github.io/caltech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4-Point Bending</title>
+      <link>https://kananmehta.github.io/caltech/4pt/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/4pt/</guid>
+      <description>&lt;p&gt;For the 4-point load test, we only performed the real-life experiment. Similar to the cantilever experiment, we used 
+an aluminum bar outfitted with a strain gage. Essentially the same analysis was performed as for the cantilever experiment, 
+with the principal and shear strains being calculated from the strain gage data. Then with simple beam analysis the bending 
+force and moment could be calculated, which were used to compute the bending stress at the top surface of the beam. This in 
+turn could be used to compute Poisson&amp;rsquo;s ratio and the elastic modulus, resulting in an even more accurate estimate of 3.246 
+for Poisson&amp;rsquo;s and an identical elastic modulus.&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/4pt/4pt_setup.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/4pt/4pt_setup.jpg&#34; alt=&#34;4-Point Bend Experiment&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/4pt/4pt_setup.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;4-Point Bend Experiment&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/4pt/71c.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/4pt/71c.bmp&#34; alt=&#34;Principle and Shear Strains vs Time&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/4pt/71c.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Principle and Shear Strains vs Time&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/4pt/71d.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/4pt/71d.bmp&#34; alt=&#34;Bending Force vs Time&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/4pt/71d.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Bending Force vs Time&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/4pt/71e.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/4pt/71e.bmp&#34; alt=&#34;Bending Moment vs Time&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/4pt/71e.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Bending Moment vs Time&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/4pt/71f.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/4pt/71f.bmp&#34; alt=&#34;Bending Stress vs Time&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/4pt/71f.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Bending Stress vs Time&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/4pt/71i.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/4pt/71i.bmp&#34; alt=&#34;Bending Force vs Crosshead Position&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/4pt/71i.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Bending Force vs Crosshead Position&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/4pt/71j.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/4pt/71j.bmp&#34; alt=&#34;Deflection vs Time&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/4pt/71j.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Deflection vs Time&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cantilever Beam Analysis</title>
+      <link>https://kananmehta.github.io/caltech/cantilever/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/cantilever/</guid>
+      <description>&lt;p&gt;The second solids simulation I conducted was a beam-bending problem. First I worked out the problem analytically given the boundary conditions (bending and torsion) then ran a similar simulation in ANSYS. The simulation resulted in a slightly larger displacement and significantly lower twist angle, possibly due to the fact that the analytical solution did not consider the endcap used in the simulation geometry. Next, a modal analysis was performed in ANSYS revealing three mode frequencies characterized by strong z-axis bending, strong y-axis bending, and torsion respectively (the shapes for these last two modes shown in the last two images below). Given that the beam loaded under the provided boundary condition appears to be characterized by torsion and y-axis bending, it is likely that these two modes would be excited if the boundary conditions were suddenly removed and the system allowed to vibrate freely.&lt;/p&gt;
+&lt;p&gt;For the final set of experiments in the course, we learned to use strain gages by conducting a cantilever beam test to verify Poisson&amp;rsquo;s ratio for aluminum.&lt;/p&gt;
+&lt;p&gt;The cantilever beam test was quite straightforward so two variants were conducted: load controlled, where weights were incrementally added to the edge of the beam, and displacement controlled where a micrometer was used to deflect the beam. The strain gage data was converted in MATLAB using the strain transformation equations and plotted against the loads. These relationships were analyzed with Euler-Bernoulli beam theory, yielding an estimate for the elastic modulus of 68.7 GPa, very close to the tabulated value of 69 GPa for aluminum. All this data in turn could be used to compute Poisson&amp;rsquo;s ratio. The average value found between the trials was .306, fairly close to the tabulated value of 0.33.&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/static.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/static.png&#34; alt=&#34;Static torsion and bending&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/static.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Static torsion and bending&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/modal1.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/modal1.png&#34; alt=&#34;Modal analysis, 96 Hz&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/modal1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Modal analysis, 96 Hz&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/modal4.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/modal4.png&#34; alt=&#34;Modal analysis, 160 Hz&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/modal4.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Modal analysis, 160 Hz&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/cant_setup.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/cant_setup.jpg&#34; alt=&#34;Cantilever experiment&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/cant_setup.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Cantilever experiment&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/62b.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/62b.bmp&#34; alt=&#34;Strain vs Load&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/62b.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Strain vs Load&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/62e.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/62e.bmp&#34; alt=&#34;Max Principal Strain vs Load&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/62e.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Max Principal Strain vs Load&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/62f.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/62f.bmp&#34; alt=&#34;Min Principal Strain vs Load&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/62f.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Min Principal Strain vs Load&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/62g.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/62g.bmp&#34; alt=&#34;Max Shear Strain vs Load&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/62g.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Max Shear Strain vs Load&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/63a.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/63a.bmp&#34; alt=&#34;Strain vs Displacement&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/63a.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Strain vs Displacement&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/63d.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/63d.bmp&#34; alt=&#34;Max Principal Strain vs Displacement&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/63d.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Max Principal Strain vs Displacement&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/63e.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/63e.bmp&#34; alt=&#34;Min Principal Strain vs Displacement&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/63e.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Min Principal Strain vs Displacement&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/63f.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/63f.bmp&#34; alt=&#34;Max Shear Strain vs Displacement&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/63f.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Max Shear Strain vs Displacement&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/65f.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/65f.bmp&#34; alt=&#34;Load vs Deflection&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/65f.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Load vs Deflection&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/65ha.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/65ha.bmp&#34; alt=&#34;Calculated Poisson&amp;#39;s vs Applied Load&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/65ha.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Calculated Poisson&amp;#39;s vs Applied Load&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/65hb.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/65hb.bmp&#34; alt=&#34;Calculated Poisson&amp;#39;s vs Applied Deflection&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/65hb.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Calculated Poisson&amp;#39;s vs Applied Deflection&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/cantilever/65j.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/cantilever/65j.bmp&#34; alt=&#34;Max Principal Strain vs Min Principal Strain&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/cantilever/65j.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Max Principal Strain vs Min Principal Strain&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tensile Testing</title>
+      <link>https://kananmehta.github.io/caltech/tensile/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/tensile/</guid>
+      <description>&lt;p&gt;The first set of solids simulations in this course was a simple demonstration of plastic and elastic deformations of an aluminum &amp;lsquo;dogbone&amp;rsquo; plate. In the first plot we can clearly see the internal stress increasing until the material fails and begins to deform plastically and stress ceases increasing. In the second plot, a plate is again loaded linearly but stopped just short of failure. Although the material is still irreversibly deformed, it relaxes linearly, or elastically, to a significantly lower displacement that it was loaded to. For one extra variable, the simulations were performed on geometries both with and without a hole punched through the center. Unsurprisingly, the perforated plates failed at significantly lower loads due to the extreme stress that develops around the hole.&lt;/p&gt;
+&lt;p&gt;In the second term, this same test was performed on actual aluminum plates with a tensile testing apparatus and a high-speed camera for DIC (digital image correlation). Aside from generating the pretty strain plots below, I was also able to use Hooke&amp;rsquo;s law for stress-strain relation to derive an experimental estimate for the stress intensity factor, K. The K value of 2.336 was only off by under 1.4% from the theoretical value.&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/tensile/dogbone_coarse.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/tensile/dogbone_coarse.png&#34; alt=&#34;Deformation, coarse mesh&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/tensile/dogbone_coarse.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Deformation, coarse mesh&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/tensile/dogbone_fine.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/tensile/dogbone_fine.png&#34; alt=&#34;Deformation, fine mesh (perforated)&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/tensile/dogbone_fine.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Deformation, fine mesh (perforated)&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/tensile/stress_v_disp.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/tensile/stress_v_disp.png&#34; alt=&#34;Maximum stress vs Displacement, coarse 2D&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/tensile/stress_v_disp.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Maximum stress vs Displacement, coarse 2D&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/tensile/def_v_force.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/tensile/def_v_force.png&#34; alt=&#34;Vertical deformation vs Boundary force, fine 3D&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/tensile/def_v_force.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Vertical deformation vs Boundary force, fine 3D&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/tensile/u_disp.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/tensile/u_disp.png&#34; alt=&#34;X-displacement, elastic deformation&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/tensile/u_disp.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;X-displacement, elastic deformation&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/tensile/v_disp.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/tensile/v_disp.png&#34; alt=&#34;Y-displacement, elastic deformation&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/tensile/v_disp.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Y-displacement, elastic deformation&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/tensile/exx.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/tensile/exx.png&#34; alt=&#34;Exx strain, elastic deformation&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/tensile/exx.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Exx strain, elastic deformation&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/tensile/exy.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/tensile/exy.png&#34; alt=&#34;Exy strain, elastic deformation&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/tensile/exy.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Exy strain, elastic deformation&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/tensile/eyy.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/tensile/eyy.png&#34; alt=&#34;Eyy strain, elastic deformation&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/tensile/eyy.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Eyy strain, elastic deformation&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Engine Nacelle Analysis</title>
+      <link>https://kananmehta.github.io/caltech/nacelle/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/nacelle/</guid>
+      <description>&lt;p&gt;The second simulation for this course consisted of testing various mesh settings and CFD techniques for a straight pipe and an engine nacelle, allowing us to get more practice with ANSYS Fluent and learning to model axisymmetric flows.&lt;/p&gt;
+&lt;p&gt;The results were not as interesting as for the airfoil simulations. For the straight pipe I found that the steady-state inviscid model (Spalart-Allmaras) could not converge, while the transient inviscid and steady-state viscous models both converged and showed similar flow features as well as satisfying the continuity equation. Since this geometry was quite simple mesh type did not matter much.&lt;/p&gt;
+&lt;p&gt;For the engine nacelle, mesh density greatly affected the results. Once the mesh was properly refined, the Spalart-Allmaras model was found to be the best solution as it returned a much higher bypass ratio (due to the multiple boundary layers in close proximity, slowing flow through the center of the engine)&lt;/p&gt;
+&lt;p&gt;We again returned to the water tunnel to examine a 3-D printed engine nacelle similar to the one we modeled. Since this experiment involved running the water pump at different frequencies, we again collected data upstream of the test sample to experimentally determine the freestream velocity for each pump setting.&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/nacelle/pipe_transient.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/nacelle/pipe_transient.png&#34; alt=&#34;Simple pipe, transient&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/nacelle/pipe_transient.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Simple pipe, transient&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/nacelle/nacelle_fine.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/nacelle/nacelle_fine.png&#34; alt=&#34;Nacelle simulation&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/nacelle/nacelle_fine.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Nacelle simulation&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/nacelle/nacelle.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/nacelle/nacelle.png&#34; alt=&#34;3D-printed nacelle&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/nacelle/nacelle.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;3D-printed nacelle&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/nacelle/q1.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/nacelle/q1.bmp&#34; alt=&#34;Upstream velocity, experimental&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/nacelle/q1.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Upstream velocity, experimental&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/nacelle/q5.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/nacelle/q5.bmp&#34; alt=&#34;Downstream velocity, experimental&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/nacelle/q5.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Downstream velocity, experimental&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/nacelle/q12.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/nacelle/q12.bmp&#34; alt=&#34;Normalized downstream velocity vs Y-position&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/nacelle/q12.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Normalized downstream velocity vs Y-position&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Airfoil Analysis</title>
+      <link>https://kananmehta.github.io/caltech/airfoil/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/airfoil/</guid>
+      <description>&lt;p&gt;For the simulations assignment, we tested different mesh geometries and simulation settings to see which would 
+most accurately predict the lift/drag coefficients. I found that the inviscid simulation yielded the most accurate lift 
+coefficient, while the steady-state model did not even converge to a solution. The transient model captured the 
+turbulent effects that would probably be observed in the real world, but yielded very poor estimates for the lift 
+and drag coefficients. I later learned that I had one of the most accurate estimates in the class because I had used an 
+&amp;lsquo;inflation layer&amp;rsquo; in my mesh, which added increased definition directly outside the airfoil to allow for superior 
+modeling of the boundary layer.&lt;/p&gt;
+&lt;p&gt;In the second term, we conducted actual water tunnel experiments on the same airfoil. Using the PIV (particle-image-velocimetry) data gathered upstream, I was able to estimate a freestream velocity. Data was also gathered from the trailing edge of the airfoil, allowing me to derive drag coefficients from Bernoulli&amp;rsquo;s and the Navier-Stokes equation. Whether calculated using the experimentally-determined freestream velocity or that provided by the water pump manufacturer, there is clearly a sharp increase in drag after the airfoil is tilted beyond about 10 degrees. I also made vorticity plot for the flows, and found that there was severe vortex shedding at the higher angles. By performing an FFT, I found the shedding frequency to be about 6.3 Hz, very close to the theoretical estimate.&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/airfoil/foil_mesh.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/airfoil/foil_mesh.png&#34; alt=&#34;Mesh&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/airfoil/foil_mesh.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Mesh&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/airfoil/foil_contour.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/airfoil/foil_contour.png&#34; alt=&#34;Velocity plot, simulated (AoA = 6)&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/airfoil/foil_contour.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Velocity plot, simulated (AoA = 6)&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/airfoil/water_tunnel.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/airfoil/water_tunnel.png&#34; alt=&#34;Water tunnel&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/airfoil/water_tunnel.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Water tunnel&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/airfoil/foil_piv_velocity.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/airfoil/foil_piv_velocity.bmp&#34; alt=&#34;Velocity plot, experimental (AoA = -15)&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/airfoil/foil_piv_velocity.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Velocity plot, experimental (AoA = -15)&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/airfoil/angle_of_attack_vs_drag.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/airfoil/angle_of_attack_vs_drag.bmp&#34; alt=&#34;AoA vs Cd, experimental&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/airfoil/angle_of_attack_vs_drag.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;AoA vs Cd, experimental&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/airfoil/vorticity.bmp&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/airfoil/vorticity.bmp&#34; alt=&#34;Vorticity plot, experimental (AoA = -15)&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/airfoil/vorticity.bmp&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Vorticity plot, experimental (AoA = -15)&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Amphibious Tank Robot Design</title>
+      <link>https://kananmehta.github.io/caltech/me72/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/me72/</guid>
+      <description>&lt;p&gt;For my senior capstone design project, I was put into a team of 5 to design and fabricate three robots for competition against our peers. The competition area was a pond divided into three sections separated by ramps, meaning we needed amphibious vehicles. The competition objectives involved picking up various colored balls from the arena and moving transporting them to specific zones to score points.&lt;/p&gt;
+&lt;p&gt;Our strategy was to design two large, expensive fully amphibious tank-boats that would be capable of storing as many balls as we could find. The third robot was made using the leftover budget and was a simple, lightweight fanboat with tiny wheels on the bottom for traversing ramps. Our large vehicles consisted of a Teflon-like HDPE thermoformed hull. It was fitted to CNC&amp;rsquo;ed aluminum plates with bolts and silicone gaskets. A shovel-like mechanism on the front and a moveable wall on the back were mounted to shafts and connected to linear actuators to allow them to collect and eject balls. The land locomotion system consisted of tank-like treads powered by a brushless motor and gear drive. The water propulsion used custom 3-D printed waterjets and impellers with brushless motors. The cheaper third robot was constructed almost entirely of lasercut ABS. The control systems all used Arduinos with hobbyist ESCs.&lt;/p&gt;
+&lt;p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/me72//competition.jpg&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/me72//competition.jpg&#34; alt=&#34;Competition&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Competition&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/me72//competition.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/me72//fanboat.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/me72//fanboat.png&#34; alt=&#34;Fanboat&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Fanboat&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/me72//fanboat.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/me72//tank.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/me72//tank.png&#34; alt=&#34;Tank&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Tank&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/me72//tank.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/me72//tank_side.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/me72//tank_side.png&#34; alt=&#34;Tank side&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Tank side&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/me72//tank_side.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Novel Carbon-Fiber Robot Design</title>
+      <link>https://kananmehta.github.io/caltech/arcl/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/arcl/</guid>
+      <description>&lt;p&gt;Throughout my junior year I worked as the main mechanical designer on a robotics project at Caltech&amp;rsquo;s Center for Autonomous Systems Technology. The postdoc leading the project had already designed some of the core components on his own but I added much of the detail to the joints and chassis, integrated the off-the-shelf components, and designed much of the electronics mounting and other components in the &amp;lsquo;head&amp;rsquo; of the robot. I also designed a housing/coupler for a BLDC motor, encoder, and planetary gearbox that was intended to be a potential replacement for the harmonic drive motors if the manufacturer could not fill the order in time, and a wheeled testbed for safely testing the robot. Unfortunately I left to work at Lockheed Martin for the summer before the electronics and software were fully built.&lt;/p&gt;
+&lt;p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/arcl//planetary_gearbox_adapter.JPG&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/arcl//planetary_gearbox_adapter.JPG&#34; alt=&#34;Planetary gearbox adapter&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Planetary gearbox adapter&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/arcl//planetary_gearbox_adapter.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/arcl//robot.JPG&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/arcl//robot.JPG&#34; alt=&#34;Robot&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Robot&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/arcl//robot.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/NekTN9bTSS8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>A* Maze Solver</title>
+      <link>https://kananmehta.github.io/caltech/astar/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/astar/</guid>
+      <description>&lt;p&gt;As my final project of the cross-listed mechanical engineering/computer science class, ME133: Autonomy, I implemented the A* graph-search algorithm in Python. It is an extension of Djisktra&amp;rsquo;s algorithm that uses a guiding heuristic function to ideally attain the result faster than Djisktra&amp;rsquo;s. The core logic of my code is in one of the pictures below. While there are libraries out there for implementing graphs in Python, I wanted to only use built-in data structures. I ended up using a dictionary that mapped the node coordinates to an array storing the distance from start node, heuristic value, total value, and the parent node coordinates. Once I worked out the data structures and the helper functions (calculate heuristic, find list of all valid neighbor nodes) it was simple to turn the A* pseudocode into Python code. I also implemented the ability to read in maps from CSV files and visualize the solutions using matplotlib.&lt;/p&gt;
+&lt;p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/astar//maze_1.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/astar//maze_1.png&#34; alt=&#34;Maze 1&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Maze 1&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/astar//maze_1.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/astar//maze_2.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/astar//maze_2.png&#34; alt=&#34;Maze 2&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Maze 2&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/astar//maze_2.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; mpl
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; matplotlib.pyplot &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; plt
+&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; matplotlib &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; colors
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; numpy &lt;span style=&#34;color:#f92672&#34;&gt;as&lt;/span&gt; np
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; csv
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; copy
+
+&lt;span style=&#34;color:#75715e&#34;&gt;# User Defined Variables&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# Note: Program assumes start and goal are within bounds of the map and that the map is&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# rectangular (ie each sublist in the list has the same length)&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# Map format should be csv with 1s as obstacles, 0s as free space&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#start, goal, grid = (2,5), (9,5), list(csv.reader(open(&amp;#39;C:\\Users\\Kanan\\Desktop\\Final Project\\map1.csv&amp;#39;)))&lt;/span&gt;
+start, goal, grid &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;), (&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;98&lt;/span&gt;), list(csv&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;reader(open(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;F:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\\&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;Autonomy&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;\\&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;map3_zeroes.csv&amp;#39;&lt;/span&gt;)))
+grid &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [[int(string) &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; string &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; inner] &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; inner &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; grid]
+
+&lt;span style=&#34;color:#75715e&#34;&gt;# Function for returning list of neighbor indices while ignoring non-existent ones&lt;/span&gt;
+X &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; len(grid)&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+Y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; len(grid[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;])&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+neighbors &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;lambda&lt;/span&gt; x, y : [(x2, y2) &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x2 &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(x&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, x&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
+                                   &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; y2 &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(y&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, y&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
+                                   &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; X &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt;
+                                       &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; y &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; Y &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt;
+                                       (x &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; x2 &lt;span style=&#34;color:#f92672&#34;&gt;or&lt;/span&gt; y &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; y2) &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt;
+                                       (&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; x2 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; X) &lt;span style=&#34;color:#f92672&#34;&gt;and&lt;/span&gt;
+                                       (&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; y2 &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; Y))]
+
+&lt;span style=&#34;color:#75715e&#34;&gt;# Straight-line distance, multiplied by 10 and rounded to the nearest integer for simplicity&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;distance&lt;/span&gt;(coord1, coord2):
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; round(((coord1[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; coord2[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;])&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; (coord1[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; coord2[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;])&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;)
+&lt;span style=&#34;color:#75715e&#34;&gt;# Apply distance formula to goal and given coordinate&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;heuristic&lt;/span&gt;(coord):
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; distance(coord,goal)
+
+&lt;span style=&#34;color:#75715e&#34;&gt;# Initiate open list (with start coordinate already inside) and closed list            &lt;/span&gt;
+opened &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [start]
+closed &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;span style=&#34;color:#75715e&#34;&gt;# Using a dictionary as the data structure for storing node information&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# Format - (i,j):[g, h, f, (k,l)] where i,j are node coordinates, g, h, f are the function values, and k,l are the parent coordinates&lt;/span&gt;
+nodes &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {start:[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,heuristic(start),&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;heuristic(start),start]}
+
+&lt;span style=&#34;color:#75715e&#34;&gt;# Loop until open list is empty&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; len(opened) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;:
+    minf &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; float(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;inf&amp;#34;&lt;/span&gt;)
+    &lt;span style=&#34;color:#75715e&#34;&gt;# Find open node with mininum value and set to current&lt;/span&gt;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; n &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; opened:
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; nodes[n][&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; minf:
+            minf &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; nodes[n][&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;]
+            current &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; n
+    &lt;span style=&#34;color:#75715e&#34;&gt;# Switch current node to closed list&lt;/span&gt;
+    opened&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;remove(current)
+    closed&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(current)
+    &lt;span style=&#34;color:#75715e&#34;&gt;# If current is goal then solution was found&lt;/span&gt;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; current &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; goal:
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;
+    &lt;span style=&#34;color:#75715e&#34;&gt;# Investigate every open or unexplored, and traversable neighbor&lt;/span&gt;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; n &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; neighbors(current[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;],current[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]):
+        g &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; nodes[current][&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; distance(current,n)
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (n &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; closed) &lt;span style=&#34;color:#f92672&#34;&gt;or&lt;/span&gt; (grid[n[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]][n[&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;]] &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;):
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;pass&lt;/span&gt;
+        &lt;span style=&#34;color:#75715e&#34;&gt;# If neighbor is unexplored or has a suboptimal g-cost set current as parent, and update g and f&lt;/span&gt;
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;elif&lt;/span&gt; (n &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; opened) &lt;span style=&#34;color:#f92672&#34;&gt;or&lt;/span&gt; (g &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; nodes[n][&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;]):
+            nodes[n] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [g, heuristic(n),g&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;heuristic(n),current]
+            &lt;span style=&#34;color:#75715e&#34;&gt;# Add the previously unexplored neighbor to open list&lt;/span&gt;
+            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (n &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; opened):
+                opened&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(n)
+
+&lt;span style=&#34;color:#75715e&#34;&gt;# If map was unsolved skip the path retrieva; and visualization parts of the script&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; current &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; goal:
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;print&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Failure, map is unsolvable&amp;#34;&lt;/span&gt;)
+    quit()
+
+&lt;span style=&#34;color:#75715e&#34;&gt;# Retrieve the path by checking parent nodes, working backward from the goal&lt;/span&gt;
+path &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [goal]
+i &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;                
+&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; True:
+    parent &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; nodes[path[i]][&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;]
+    path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(parent)
+    i&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; parent &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; start:
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;break&lt;/span&gt;
+path&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;reverse()
+
+&lt;span style=&#34;color:#75715e&#34;&gt;# Visualization part of the program:&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# Copy array for future modification&lt;/span&gt;
+cgrid &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; np&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;array(grid)
+&lt;span style=&#34;color:#75715e&#34;&gt;# Fill array with 2, 3, 4 for opened, closed, or nodes lying on the path respectively&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# Otherwise leave 0 or 1 which still represent free (unexplored) and occupied spaces respectively&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(len(grid)):
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; j &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(len(grid[i])):
+        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (i,j) &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; path:
+            cgrid[i][j] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#        elif (i,j) in opened:&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#            cgrid[i][j] = 3&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#        elif (i,j) in closed:&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#            cgrid[i][j] = 2&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# Map colors to the different values, effectively creating the following mapping&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;# Free (unexplored), Occupied, Opened, Closed, Path: 0, 1, 2, 3, 4&lt;/span&gt;
+cmap &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; colors&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ListedColormap([&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;white&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;black&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;green&amp;#39;&lt;/span&gt;])
+plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(cgrid,interpolation&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;nearest&amp;#39;&lt;/span&gt;,cmap&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;cmap)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>PID Ball Balancer</title>
+      <link>https://kananmehta.github.io/caltech/pid/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/pid/</guid>
+      <description>&lt;p&gt;For the second project in my junior year design class, my team decided to design a ball-balancing mechanism in order to gain some experience with controls. The mechanical design was fairly simple. We mounted a plate onto a u-joint to allow it to pivot along the pitch and roll axes and connected arms to two perpendicular sides of the plate. We originally intended to use a resistive touch screen, but could not find one for a reasonable price. Luckily, I found the PixyCam, which allowed us to track the ball’s position visually using simple Arduino-compatible functions. After setting up the camera it was just a matter of implementing the Arduino PID algorithm library to controlling the servos and tweaking the PID constant values for better performance. This project had fewer manufacturing restrictions so while some parts were still purchased or manufactured on a manual mill or lathe, others were cut with a waterjet or laser.&lt;/p&gt;
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/UKTgBAwl0NE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/i55-FDryimI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tensioned Belt-Drive Gearbox</title>
+      <link>https://kananmehta.github.io/caltech/gearbox/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/gearbox/</guid>
+      <description>&lt;p&gt;For my first serious mechanical design project my group of 3 students was tasked with developing a gearbox to transmit torque from a small electric motor to a bicycle wheel. We were provided dimensions for the spacing and height of the couplings, the mounting geometry on the test platform, a recommended gear ratio, and a budget, but were otherwise left to our own devices. While most groups went with a simple spur gear design we decided to go with a dual-inline pulley design with an added tensioner/idler pulley. The bearings, belts, pulleys, springs, and fasteners were purchased but the rest of the components were machined by hand (with the exception of the decorative Pokemon plate, which was laser-etched).&lt;/p&gt;
+&lt;p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/r-UsgsbbjlY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/gearbox//gearbox_iso.JPG&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/gearbox//gearbox_iso.JPG&#34; alt=&#34;Gearbox iso&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Gearbox iso&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/gearbox//gearbox_iso.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/gearbox//tensioner.jpg&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/gearbox//tensioner.jpg&#34; alt=&#34;Tensioner&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Tensioner&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/gearbox//tensioner.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/gearbox//tensioner_render.JPG&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/gearbox//tensioner_render.JPG&#34; alt=&#34;Tensioner render&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Tensioner render&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/gearbox//tensioner_render.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thruster Mount and Land Support Design for Robotics Team</title>
+      <link>https://kananmehta.github.io/caltech/robotics/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/robotics/</guid>
+      <description>&lt;p&gt;I was active on the Caltech Robotics Team for a little over half of my junior year. My task was to design the thruster mounts for our small autonomous submarine. The thrusters were prototypes from the manufacturer VideoRay so I had to design the mounts to conform to their provided CAD. Initially the &amp;lsquo;foot&amp;rsquo; of the vertical thruster mount was supposed to be on the inside, but the instrument teams requested it to be moved outside. Because of this, the assembly had to be reinforced with an extra piece attaching it to the submarine. Pocketing was also added to the &amp;lsquo;foot&amp;rsquo; due to weight considerations.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kananmehta.github.io/images/vertical.JPG&#34; alt=&#34;Vertical Thruster&#34;&gt; &lt;img src=&#34;https://kananmehta.github.io/images/planar.JPG&#34; alt=&#34;Planar Thruster&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thales Project Arduino Competition</title>
+      <link>https://kananmehta.github.io/caltech/thales/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/thales/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ll let our video report do the talking.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/uy5TN-t4i8w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Waste Heat-Powered Environmental Sensor</title>
+      <link>https://kananmehta.github.io/caltech/minnich/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/minnich/</guid>
+      <description>&lt;p&gt;For my first internship as a mechanical engineer I ended up with more of an electrical project, though working for a mechanical engineering and applied physics laboratory at Caltech. The goal was to design a system that draws and stores power into a supercapacitor from a thermoelectric generator (TEG) to power a microprocessor which takes and transmits temperature measurements. A previous prototype already existed, but it could only provide an adequate voltage to the microprocessor when the TEG was exposed to a huge temperature gradient, and would only sustain power for around 12 seconds when the heat source was removed. I improved this significantly by switching to a microprocessor that featured a deep sleep mode for reducing power consumption as well as more efficient temperature sensor and transceiver. Additionally, I used a larger heatsink and a superior voltage booster connected to the supercapacitor so that far less heat needed to be applied to turn on the processor. Lastly, I used a load switch to ensure the stored energy in the supercapacitor would not be wasted on the microprocessor until the voltage is high enough to properly power the device.&lt;/p&gt;
+&lt;p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/minnich//block_diagram.jpg&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/minnich//block_diagram.jpg&#34; alt=&#34;Block diagram&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Block diagram&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/minnich//block_diagram.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/minnich//completed_prototype.jpg&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/minnich//completed_prototype.jpg&#34; alt=&#34;Completed prototype&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Completed prototype&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/minnich//completed_prototype.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/minnich//testing.jpeg&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/minnich//testing.jpeg&#34; alt=&#34;Testing&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Testing&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/minnich//testing.jpeg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semiconductor Fabrication and Materials Characterization</title>
+      <link>https://kananmehta.github.io/caltech/aph9/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/aph9/</guid>
+      <description>&lt;p&gt;Although I switched to mechanical engineering three quarters of the way through my sophomore year, I was still interested in the materials side of applied physics so I decided to take a nanofabrication laboratory class for one of my advanced electives. Assignments included applying semiconductor processing techniques like etching and metal deposition to fabricating an LED from scratch, etching microscopic superhero symbols into silicon using an electron microscope, and fabricating simple microfluidic devices by creating molds out of silicon with custom-designed photoresist masks.&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+	  
+  
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/led.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/led.png&#34; alt=&#34;LED&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/led.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;LED&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/Au_Wire.JPG&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/Au_Wire.JPG&#34; alt=&#34;Gold wire&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/Au_Wire.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Gold wire&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/Au_Wire2.JPG&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/Au_Wire2.JPG&#34; alt=&#34;Gold wire 2&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/Au_Wire2.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Gold wire 2&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/Srconbo_Nanoparticles_40.JPG&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/Srconbo_Nanoparticles_40.JPG&#34; alt=&#34;SrCoNbO x40&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/Srconbo_Nanoparticles_40.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;SrCoNbO x40&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/Srconbo_Nanoparticles_512.JPG&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/Srconbo_Nanoparticles_512.JPG&#34; alt=&#34;SrCoNbO x512&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/Srconbo_Nanoparticles_512.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;SrCoNbO x512&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/Srconbo_Nanoparticles_4k.JPG&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/Srconbo_Nanoparticles_4k.JPG&#34; alt=&#34;SrCoNbO x4k&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/Srconbo_Nanoparticles_4k.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;SrCoNbO x4k&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/Srconbo_Nanoparticles_4.46k.JPG&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/Srconbo_Nanoparticles_4.46k.JPG&#34; alt=&#34;SrCoNbO x4.46k&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/Srconbo_Nanoparticles_4.46k.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;SrCoNbO x4.46k&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/Srconbo_Nanoparticles_60k.JPG&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/Srconbo_Nanoparticles_60k.JPG&#34; alt=&#34;SrCoNbO x60k&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/Srconbo_Nanoparticles_60k.JPG&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;SrCoNbO x60k&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/batman.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/batman.png&#34; alt=&#34;SEM-etched Batman symbol&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/batman.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;SEM-etched Batman symbol&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/superman.png&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/superman.png&#34; alt=&#34;SEM-etched Superman symbol&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/superman.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;SEM-etched Superman symbol&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;/images/aph/flow_mold.jpg&#39;);&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io/images/aph/flow_mold.jpg&#34; alt=&#34;Microfluidic mold&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;https://kananmehta.github.io/images/aph/flow_mold.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Microfluidic mold&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+&lt;/div&gt;
+ 
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Four-State ‘Clap-On/Clap-Off’ Circuit</title>
+      <link>https://kananmehta.github.io/caltech/ph5/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/caltech/ph5/</guid>
+      <description>&lt;p&gt;Before I switched majors to mechanical engineering, I took a circuits class as part of the applied physics curriculum. It was largely about the applications of op-amps, along with some other useful active circuit elements like transistors and flip-flops. For the final project I designed a &amp;lsquo;clapper&amp;rsquo; circuit which would cycle between four states (00,10,01,11) to light up two LEDs in the four different configurations possible. The basic design was a condenser mic, a bandpass filter to prevent sounds like footsteps and speaking from triggering the device, a preamplifier, a hysteretic comparator or Schmitt trigger to convert the mic signal from analog to digital. The Schmitt trigger in turn outputs to a vibrator circuit, which includes a 555 timer, to convert the trigger event (a clap) to a fixed width pulse of the appropriate amplitude. Lastly, this feeds into two cascaded flip flops which each output to one of the two LEDs.&lt;/p&gt;
+&lt;p&gt;Although the block diagram is lost to time, I still have a nice demonstration video.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/38NgKX1w4L8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>University of Maryland Internships on Home</title>
+    <link>https://kananmehta.github.io/umd/</link>
+    <description>Recent content in University of Maryland Internships on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kananmehta.github.io/umd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Faraday Rotation Spectroscopy</title>
+      <link>https://kananmehta.github.io/umd/rbli/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/umd/rbli/</guid>
+      <description>&lt;p&gt;For my first college internship I returned to work at the University of Maryland, this time for the physics department&amp;rsquo;s Joint Quantum Institute. The goal of my project was to find a method for non-invasively measuring the magnetic field at the site of a sample of rubidium gas used for Bose-Einstein condensate experiments. The plan was to take advantage of the Faraday rotation effect. When light passes through a magnetic field in a medium, the plane of polarization of the light shifts in direct proportion to the magnetic field. By using a polarizing beam splitter and comparing the output of each side using photodiodes, the strength of the magnetic field can easily be calculated. In implementing this method I had to build a set of triaxial Helmholtz coils to be able to generate an arbitrary magnetic field around the sample, learn to use an oscilloscope, signal generator, magnetometer, Arduino, and many different types of optical components.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kananmehta.github.io/images/rbli_setup.jpg&#34; alt=&#34;Rectangular Fin&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A second effort, which was not fully realized, was to generate a second, rapidly oscillating magnetic field perpendicular to the laser beam to induce Larmor precession, a periodic rotation of particles&amp;rsquo; magnetic moments, which would yield a time-varying Faraday rotation effect that would allow for more accurate measurement of the constant magnetic field. In retrospect, this may not have been successful due to an impedance mismatch between the signal generator that caused the secondary magnetic field to be far too weak to produce the desired effect.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://kananmehta.github.io/images/optics.png&#34; alt=&#34;Rectangular Fin&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ANSYS Heatsink Simulations</title>
+      <link>https://kananmehta.github.io/umd/heatsink/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://kananmehta.github.io/umd/heatsink/</guid>
+      <description>&lt;p&gt;My first experience with analysis was a high school internship at the University of Maryland. My project was a simple demonstration of the use of fins on heatsinks. I simulated a small flat heat generator on a larger block with air flowing past the bottom surface to symbolize a processor on a circuit board with a fan for airflow. I used ANSYS APDL to write a few scripts that would automatically lay out fins of the desired shape and size on the bottom of the heatsink. Unsurprisingly, the fin configuration with the most surface area resulted in the lowest temperatures in the device due to the greater effect of convection.&lt;/p&gt;
+
+
+
+
+
+
+
+
+    
+    &lt;link href=&#34;https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&#34; rel=&#34;stylesheet&#34;&gt;
+
+
+
+    
+    &lt;script src=&#34;https://code.jquery.com/jquery-3.2.1.slim.min.js&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+
+&lt;style&gt;
+#slide-window {
+    position: relative;
+    width: 700px;
+    height: 520px;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+}
+
+#slides-list {
+    width: 700px;
+    height: 520px;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0.66s ease;
+    -webkit-transition: all 0.66s ease;
+}
+
+.slide {
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    height: 520px;
+    background: #ccc;
+    text-align: center;
+    line-height: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+    color: #fff;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform-style: preserve-3d;
+}
+
+.nav {
+    position: relative;
+    z-index: 9;
+    top: 45%;
+    cursor: pointer;
+    color: #3788cb;
+    opacity: 0.2;
+    transition: all 0.66s ease;
+    -webkit-transition: all 0.66s ease;
+}
+
+.nav:hover {
+    opacity: 1.0;
+}
+
+#left {
+    left: 3%;
+    float: left;
+}
+
+#right {
+    right: 3%;
+    float: right;
+}
+&lt;/style&gt;
+
+
+&lt;div id=&#34;slide-window&#34;&gt;
+    &lt;ol id=&#34;slides-list&#34;&gt;
+                &lt;li class=&#34;slide&#34; style=&#34;background-image:url(https://kananmehta.github.io/images/heatsink/control.png);&#34;&gt;&lt;/li&gt;
+                &lt;li class=&#34;slide&#34; style=&#34;background-image:url(https://kananmehta.github.io/images/heatsink/pin_fin2.png);&#34;&gt;&lt;/li&gt;
+                &lt;li class=&#34;slide&#34; style=&#34;background-image:url(https://kananmehta.github.io/images/heatsink/rec_fin3.png);&#34;&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+    &lt;span class=&#34;nav fa fa-chevron-left fa-3x&#34; id=&#34;left&#34;&gt;&lt;/span&gt;
+    &lt;span class=&#34;nav fa fa-chevron-right fa-3x&#34; id=&#34;right&#34;&gt;&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+sliderJQuery = jQuery.noConflict();
+sliderJQuery(function( $ ) {
+    $.global = new Object();
+    $.global.total = 0;
+
+    $(document).ready(function () {
+        var slideWindowWidth = $(&#39;#slide-window&#39;).width();
+        var slideCount = $(&#39;#slides-list li&#39;).length;
+        var totalSlidesWidth = slideCount * slideWindowWidth;
+
+        $.global.item = 0;
+        $.global.total = slideCount;
+
+        $(&#39;.slide&#39;).css(&#39;width&#39;, slideWindowWidth + &#39;px&#39;);
+        $(&#39;#slides-list&#39;).css(&#39;width&#39;, totalSlidesWidth + &#39;px&#39;);
+
+        $(&#39;#left&#39;).click(function () {
+            resetAutoSlide();
+            performSlide(&#39;back&#39;);
+        });
+
+        $(&#39;#right&#39;).click(function () {
+            resetAutoSlide();
+            performSlide(&#39;forward&#39;);
+        });
+
+    });
+
+    function performSlide(direction) {
+        if (direction == &#39;back&#39;) {
+            var nextSlideId = $.global.item - 1;
+        }
+        if (direction == &#39;forward&#39;) {
+            var nextSlideId = $.global.item + 1;
+        }
+
+        if (nextSlideId == -1) {
+             
+            moveCss($.global.total - 1);
+        } else if (nextSlideId == $.global.total) {
+             
+            moveCss(0);
+        } else {
+             
+            moveCss(nextSlideId);
+        }
+    }
+
+    function moveCss(nextSlideId) {
+        var slideWindowWidth = $(&#39;#slide-window&#39;).width();
+        var margin = slideWindowWidth * nextSlideId;
+
+        $(&#39;#slides-list&#39;).css(&#39;transform&#39;, &#39;translate3d(-&#39; + margin + &#39;px,0px,0px)&#39;);
+
+        $.global.item = nextSlideId;
+    }
+
+    
+      var autoSlide = parseInt(&#34;0&#34;, 10);
+      var autoSlideInterval;
+      function resetAutoSlide(){
+        if(autoSlide) {
+          if(autoSlideInterval) {
+            clearInterval(autoSlideInterval);
+          }
+          autoSlideInterval = setInterval(function(){
+            performSlide(&#39;forward&#39;);
+          }, autoSlide)
+        }
+      }
+      resetAutoSlide();
+});
+&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
