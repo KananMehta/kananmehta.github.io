@@ -22,7 +22,7 @@ an aluminum bar outfitted with a strain gage. Essentially the same analysis was 
 with the principal and shear strains being calculated from the strain gage data. Then with simple beam analysis the bending 
 force and moment could be calculated, which were used to compute the bending stress at the top surface of the beam. This in 
 turn could be used to compute Poisson&amp;rsquo;s ratio and the elastic modulus, resulting in an even more accurate estimate of 3.246 
-for Poisson&amp;rsquo;s and an identical elastic modulus.&lt;/p&gt;
+for Poisson&amp;rsquo;s and an identical elastic modulus to the cantilever experiment.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -502,7 +502,7 @@ for Poisson&amp;rsquo;s and an identical elastic modulus.&lt;/p&gt;
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kananmehta.github.io/caltech/tensile/</guid>
-      <description>&lt;p&gt;The first set of solids simulations in this course was a simple demonstration of plastic and elastic deformations of an aluminum &amp;lsquo;dogbone&amp;rsquo; plate. In the first plot we can clearly see the internal stress increasing until the material fails and begins to deform plastically and stress ceases increasing. In the second plot, a plate is again loaded linearly but stopped just short of failure. Although the material is still irreversibly deformed, it relaxes linearly, or elastically, to a significantly lower displacement that it was loaded to. For one extra variable, the simulations were performed on geometries both with and without a hole punched through the center. Unsurprisingly, the perforated plates failed at significantly lower loads due to the extreme stress that develops around the hole.&lt;/p&gt;
+      <description>&lt;p&gt;The first set of solids simulations in this course was a simple demonstration of plastic and elastic deformations of an aluminum &amp;lsquo;dogbone&amp;rsquo; plate. In the first plot we can clearly see the internal stress increasing until the material fails and begins to deform plastically and stress ceases increasing. In the second plot, a plate is again loaded linearly but stopped just short of failure. Although the material is still irreversibly deformed, it relaxes linearly, or elastically, to a significantly lower displacement than it was loaded to. For one extra variable, the simulations were performed on geometries both with and without a hole punched through the center. Unsurprisingly, the perforated plates failed at significantly lower loads due to the extreme stress that develops around the hole.&lt;/p&gt;
 &lt;p&gt;In the second term, this same test was performed on actual aluminum plates with a tensile testing apparatus and a high-speed camera for DIC (digital image correlation). Aside from generating the pretty strain plots below, I was also able to use Hooke&amp;rsquo;s law for stress-strain relation to derive an experimental estimate for the stress intensity factor, K. The K value of 2.336 was only off by under 1.4% from the theoretical value.&lt;/p&gt;
 &lt;p&gt;
 
