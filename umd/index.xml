@@ -31,175 +31,105 @@
       
       <guid>https://kananmehta.github.io/umd/heatsink/</guid>
       <description>&lt;p&gt;My first experience with analysis was a high school internship at the University of Maryland. My project was a simple demonstration of the use of fins on heatsinks. I simulated a small flat heat generator on a larger block with air flowing past the bottom surface to symbolize a processor on a circuit board with a fan for airflow. I used ANSYS APDL to write a few scripts that would automatically lay out fins of the desired shape and size on the bottom of the heatsink. Unsurprisingly, the fin configuration with the most surface area resulted in the lowest temperatures in the device due to the greater effect of convection.&lt;/p&gt;
+&lt;p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
 
-
-
-
-
-
-
-
-    
-    &lt;link href=&#34;https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&#34; rel=&#34;stylesheet&#34;&gt;
-
-
-
-    
-    &lt;script src=&#34;https://code.jquery.com/jquery-3.2.1.slim.min.js&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-
-
-
-&lt;style&gt;
-#slide-window {
-    position: relative;
-    width: 700px;
-    height: 520px;
-    overflow: hidden;
-    top: 0px;
-    left: 0px;
-}
-
-#slides-list {
-    width: 700px;
-    height: 520px;
-    position: absolute;
-    margin: 0px;
-    padding: 0px;
-    -webkit-transform: translate3d(0px, 0px, 0px);
-    transform: translate3d(0px, 0px, 0px);
-    transition: all 0.66s ease;
-    -webkit-transition: all 0.66s ease;
-}
-
-.slide {
-    list-style: none;
-    position: relative;
-    float: left;
-    margin: 0;
-    padding: 0;
-    width: 700px;
-    height: 520px;
-    background: #ccc;
-    text-align: center;
-    line-height: 100%;
-    background-size: cover;
-    background-position: 50% 50%;
-    color: #fff;
-    -webkit-transform: translate3d(0px, 0px, 0px);
-    -webkit-transform-style: preserve-3d;
-}
-
-.nav {
-    position: relative;
-    z-index: 9;
-    top: 45%;
-    cursor: pointer;
-    color: #3788cb;
-    opacity: 0.2;
-    transition: all 0.66s ease;
-    -webkit-transition: all 0.66s ease;
-}
-
-.nav:hover {
-    opacity: 1.0;
-}
-
-#left {
-    left: 3%;
-    float: left;
-}
-
-#right {
-    right: 3%;
-    float: right;
-}
-&lt;/style&gt;
-
-
-&lt;div id=&#34;slide-window&#34;&gt;
-    &lt;ol id=&#34;slides-list&#34;&gt;
-                &lt;li class=&#34;slide&#34; style=&#34;background-image:url(https://kananmehta.github.io/images/heatsink/control.png);&#34;&gt;&lt;/li&gt;
-                &lt;li class=&#34;slide&#34; style=&#34;background-image:url(https://kananmehta.github.io/images/heatsink/pin_fin2.png);&#34;&gt;&lt;/li&gt;
-                &lt;li class=&#34;slide&#34; style=&#34;background-image:url(https://kananmehta.github.io/images/heatsink/rec_fin3.png);&#34;&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;span class=&#34;nav fa fa-chevron-left fa-3x&#34; id=&#34;left&#34;&gt;&lt;/span&gt;
-    &lt;span class=&#34;nav fa fa-chevron-right fa-3x&#34; id=&#34;right&#34;&gt;&lt;/span&gt;
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/heatsink//control.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/heatsink//control.png&#34; alt=&#34;Control&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Control&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/heatsink//control.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/heatsink//pin_fin.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/heatsink//pin_fin.png&#34; alt=&#34;Pin fin&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Pin fin&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/heatsink//pin_fin.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/heatsink//rectangular_fin.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/heatsink//rectangular_fin.png&#34; alt=&#34;Rectangular fin&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Rectangular fin&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/heatsink//rectangular_fin.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
 &lt;/div&gt;
+ 
 
-&lt;script&gt;
-sliderJQuery = jQuery.noConflict();
-sliderJQuery(function( $ ) {
-    $.global = new Object();
-    $.global.total = 0;
 
-    $(document).ready(function () {
-        var slideWindowWidth = $(&#39;#slide-window&#39;).width();
-        var slideCount = $(&#39;#slides-list li&#39;).length;
-        var totalSlidesWidth = slideCount * slideWindowWidth;
 
-        $.global.item = 0;
-        $.global.total = slideCount;
+  
 
-        $(&#39;.slide&#39;).css(&#39;width&#39;, slideWindowWidth + &#39;px&#39;);
-        $(&#39;#slides-list&#39;).css(&#39;width&#39;, totalSlidesWidth + &#39;px&#39;);
 
-        $(&#39;#left&#39;).click(function () {
-            resetAutoSlide();
-            performSlide(&#39;back&#39;);
-        });
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
 
-        $(&#39;#right&#39;).click(function () {
-            resetAutoSlide();
-            performSlide(&#39;forward&#39;);
-        });
 
-    });
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
 
-    function performSlide(direction) {
-        if (direction == &#39;back&#39;) {
-            var nextSlideId = $.global.item - 1;
-        }
-        if (direction == &#39;forward&#39;) {
-            var nextSlideId = $.global.item + 1;
-        }
 
-        if (nextSlideId == -1) {
-             
-            moveCss($.global.total - 1);
-        } else if (nextSlideId == $.global.total) {
-             
-            moveCss(0);
-        } else {
-             
-            moveCss(nextSlideId);
-        }
-    }
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
 
-    function moveCss(nextSlideId) {
-        var slideWindowWidth = $(&#39;#slide-window&#39;).width();
-        var margin = slideWindowWidth * nextSlideId;
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
 
-        $(&#39;#slides-list&#39;).css(&#39;transform&#39;, &#39;translate3d(-&#39; + margin + &#39;px,0px,0px)&#39;);
-
-        $.global.item = nextSlideId;
-    }
-
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
     
-      var autoSlide = parseInt(&#34;0&#34;, 10);
-      var autoSlideInterval;
-      function resetAutoSlide(){
-        if(autoSlide) {
-          if(autoSlideInterval) {
-            clearInterval(autoSlideInterval);
-          }
-          autoSlideInterval = setInterval(function(){
-            performSlide(&#39;forward&#39;);
-          }, autoSlide)
-        }
-      }
-      resetAutoSlide();
-});
-&lt;/script&gt;
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 </description>
     </item>
     

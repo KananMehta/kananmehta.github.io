@@ -21,7 +21,7 @@
 an aluminum bar outfitted with a strain gage. Essentially the same analysis was performed as for the cantilever experiment, 
 with the principal and shear strains being calculated from the strain gage data. Then with simple beam analysis the bending 
 force and moment could be calculated, which were used to compute the bending stress at the top surface of the beam. This in 
-turn could be used to compute Poisson&amp;rsquo;s ratio and the elastic modulus, resulting in an even more accurate estimate of 3.246 
+turn could be used to compute Poisson&amp;rsquo;s ratio and the elastic modulus, resulting in an even more accurate estimate of 0.3246 
 for Poisson&amp;rsquo;s and an identical elastic modulus to the cantilever experiment.&lt;/p&gt;
 &lt;p&gt;
 
@@ -198,9 +198,9 @@ for Poisson&amp;rsquo;s and an identical elastic modulus to the cantilever exper
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kananmehta.github.io/caltech/cantilever/</guid>
-      <description>&lt;p&gt;The second solids simulation I conducted was a beam-bending problem. First I worked out the problem analytically given the boundary conditions (bending and torsion) then ran a similar simulation in ANSYS. The simulation resulted in a slightly larger displacement and significantly lower twist angle, possibly due to the fact that the analytical solution did not consider the endcap used in the simulation geometry. Next, a modal analysis was performed in ANSYS revealing three mode frequencies characterized by strong z-axis bending, strong y-axis bending, and torsion respectively (the shapes for these last two modes shown in the last two images below). Given that the beam loaded under the provided boundary condition appears to be characterized by torsion and y-axis bending, it is likely that these two modes would be excited if the boundary conditions were suddenly removed and the system allowed to vibrate freely.&lt;/p&gt;
-&lt;p&gt;For the final set of experiments in the course, we learned to use strain gages by conducting a cantilever beam test to verify Poisson&amp;rsquo;s ratio for aluminum.&lt;/p&gt;
-&lt;p&gt;The cantilever beam test was quite straightforward so two variants were conducted: load controlled, where weights were incrementally added to the edge of the beam, and displacement controlled where a micrometer was used to deflect the beam. The strain gage data was converted in MATLAB using the strain transformation equations and plotted against the loads. These relationships were analyzed with Euler-Bernoulli beam theory, yielding an estimate for the elastic modulus of 68.7 GPa, very close to the tabulated value of 69 GPa for aluminum. All this data in turn could be used to compute Poisson&amp;rsquo;s ratio. The average value found between the trials was .306, fairly close to the tabulated value of 0.33.&lt;/p&gt;
+      <description>&lt;p&gt;The second solids simulation I conducted was a beam-bending problem. First I worked out the problem analytically given the boundary conditions (bending and torsion) then ran a similar simulation in ANSYS. The simulation resulted in a slightly larger displacement and significantly lower twist angle, possibly due to the fact that the analytical solution did not consider the endcap used in the simulation geometry. Next, a modal analysis was performed in ANSYS revealing three mode frequencies characterized by strong z-axis bending, strong y-axis bending, and torsion respectively (characteristic shapes for these last two modes shown below). Given that the beam loaded under the provided boundary condition appears to be characterized by torsion and y-axis bending, it is likely that these two modes would be excited if the boundary conditions were suddenly removed and the system allowed to vibrate freely.&lt;/p&gt;
+&lt;p&gt;For the experimental section, we learned to use strain gages by conducting a cantilever beam test to verify Poisson&amp;rsquo;s ratio and elastic modulus for aluminum.&lt;/p&gt;
+&lt;p&gt;The cantilever beam test was quite straightforward so two variants were conducted: load controlled, where weights were incrementally added to the edge of the beam, and displacement controlled where a micrometer was used to deflect the beam. The strain gage data was converted in MATLAB using the strain transformation equations and plotted against the loads. These relationships were analyzed with Euler-Bernoulli beam theory, yielding an estimate for the elastic modulus of 68.7 GPa, very close to the tabulated value of 69 GPa for aluminum. All this data in turn could be used to compute Poisson&amp;rsquo;s ratio. The average value found between the trials was 0.306, fairly close to the tabulated value of 0.33.&lt;/p&gt;
 &lt;p&gt;
 
 
@@ -1162,7 +1162,7 @@ modeling of the boundary layer.&lt;/p&gt;
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kananmehta.github.io/caltech/arcl/</guid>
-      <description>&lt;p&gt;Throughout my junior year I worked as the main mechanical designer on a robotics project at Caltech&amp;rsquo;s Center for Autonomous Systems Technology. The postdoc leading the project had already designed some of the core components on his own but I added much of the detail to the joints and chassis, integrated the off-the-shelf components, and designed much of the electronics mounting and other components in the &amp;lsquo;head&amp;rsquo; of the robot. I also designed a housing/coupler for a BLDC motor, encoder, and planetary gearbox that was intended to be a potential replacement for the harmonic drive motors if the manufacturer could not fill the order in time, and a wheeled testbed for safely testing the robot. Unfortunately I left to work at Lockheed Martin for the summer before the electronics and software were fully built.&lt;/p&gt;
+      <description>&lt;p&gt;Throughout my junior year I worked as the lead mechanical designer on a robotics project at Caltech&amp;rsquo;s Center for Autonomous Systems Technology. The postdoc leading the project had already designed some of the core components on his own but I added much of the detail to the joints and chassis, integrated the off-the-shelf components, and designed much of the electronics mounting and other components in the &amp;lsquo;head&amp;rsquo; of the robot. I also designed a housing/coupler for a BLDC motor, encoder, and planetary gearbox that was intended to be a potential replacement for the harmonic drive motors if the manufacturer could not fill the order in time, and a wheeled testbed for safely testing the robot. Unfortunately I left to work at Lockheed Martin for the summer before the electronics and software were fully built.&lt;/p&gt;
 &lt;p&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
 
@@ -1265,7 +1265,7 @@ modeling of the boundary layer.&lt;/p&gt;
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kananmehta.github.io/caltech/astar/</guid>
-      <description>&lt;p&gt;As my final project of the cross-listed mechanical engineering/computer science class, ME133: Autonomy, I implemented the A* graph-search algorithm in Python. It is an extension of Djisktra&amp;rsquo;s algorithm that uses a guiding heuristic function to ideally attain the result faster than Djisktra&amp;rsquo;s. The core logic of my code is in one of the pictures below. While there are libraries out there for implementing graphs in Python, I wanted to only use built-in data structures. I ended up using a dictionary that mapped the node coordinates to an array storing the distance from start node, heuristic value, total value, and the parent node coordinates. Once I worked out the data structures and the helper functions (calculate heuristic, find list of all valid neighbor nodes) it was simple to turn the A* pseudocode into Python code. I also implemented the ability to read in maps from CSV files and visualize the solutions using matplotlib.&lt;/p&gt;
+      <description>&lt;p&gt;As my final project of the cross-listed mechanical engineering/computer science class, ME133: Autonomy, I implemented the A* graph-search algorithm in Python. It is an extension of Djisktra&amp;rsquo;s algorithm that uses a guiding heuristic function to ideally attain the result faster than Djisktra&amp;rsquo;s. The core logic of my code is in one of the pictures below. While there are libraries out there for implementing graphs in Python, I wanted to only use built-in data structures. I ended up using a dictionary that mapped the node coordinates to an array storing the distance from start node, heuristic value, total value, and the parent node coordinates. Once I worked out the data structures and the helper functions (calculate heuristic, find list of all valid neighbor nodes) it was simple to turn the algorithm outline into actual code. I also implemented the ability to read in maps from CSV files and visualize the solutions using matplotlib.&lt;/p&gt;
 &lt;p&gt;
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
 
@@ -1462,7 +1462,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(cgrid,interpol
       <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kananmehta.github.io/caltech/pid/</guid>
-      <description>&lt;p&gt;For the second project in my junior year design class, my team decided to design a ball-balancing mechanism in order to gain some experience with controls. The mechanical design was fairly simple. We mounted a plate onto a u-joint to allow it to pivot along the pitch and roll axes and connected arms to two perpendicular sides of the plate. We originally intended to use a resistive touch screen, but could not find one for a reasonable price. Luckily, I found the PixyCam, which allowed us to track the ball’s position visually using simple Arduino-compatible functions. After setting up the camera it was just a matter of implementing the Arduino PID algorithm library to controlling the servos and tweaking the PID constant values for better performance. This project had fewer manufacturing restrictions so while some parts were still purchased or manufactured on a manual mill or lathe, others were cut with a waterjet or laser.&lt;/p&gt;
+      <description>&lt;p&gt;For the second project in my junior year design class, my team decided to design a ball-balancing mechanism in order to gain some experience with controls. The mechanical design was fairly simple. We mounted a plate onto a u-joint to allow it to pivot along the pitch and roll axes and connected arms to two perpendicular sides of the plate. We originally intended to use a resistive touch screen, but could not find one for a reasonable price. Luckily, I found the PixyCam, which allowed us to track the ball’s position visually using simple Arduino-compatible functions. After setting up the camera it was just a matter of applying the Arduino PID algorithm library to controlling the servos and tweaking the PID constant values for better performance. This project had fewer manufacturing restrictions so while some parts were still purchased or manufactured on a manual mill or lathe, others were cut with a waterjet or laser.&lt;/p&gt;
 &lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/UKTgBAwl0NE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -1596,7 +1596,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(cgrid,interpol
       <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://kananmehta.github.io/caltech/robotics/</guid>
-      <description>&lt;p&gt;I was active on the Caltech Robotics Team for a little over half of my junior year. My task was to design the thruster mounts for our small autonomous submarine. The thrusters were prototypes from the manufacturer VideoRay so I had to design the mounts to conform to their provided CAD. Initially the &amp;lsquo;foot&amp;rsquo; of the vertical thruster mount was supposed to be on the inside, but the instrument teams requested it to be moved outside. Because of this, the assembly had to be reinforced with an extra piece attaching it to the submarine. Pocketing was also added to the &amp;lsquo;foot&amp;rsquo; due to weight considerations.&lt;/p&gt;
+      <description>&lt;p&gt;I was active on the Caltech Robotics Team for a little over half of my junior year. My task was to design both the vertical and horizontal thruster mounts for our small autonomous submarine. The thrusters were prototypes from the manufacturer VideoRay so I had to design the mounts to conform to their provided CAD. Initially the &amp;lsquo;foot&amp;rsquo; of the vertical thruster mount was supposed to be on the inside, but the instrument teams requested it to be moved outside. Because of this, the assembly had to be reinforced with an extra piece attaching it to the submarine. Pocketing was also added to the &amp;lsquo;foot&amp;rsquo; due to weight considerations.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://kananmehta.github.io/images/vertical.JPG&#34; alt=&#34;Vertical Thruster&#34;&gt; &lt;img src=&#34;https://kananmehta.github.io/images/planar.JPG&#34; alt=&#34;Planar Thruster&#34;&gt;&lt;/p&gt;
 </description>
     </item>
@@ -1607,8 +1607,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(cgrid,interpol
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://kananmehta.github.io/caltech/thales/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ll let our video report do the talking.&lt;/p&gt;
-
+      <description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/uy5TN-t4i8w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
@@ -1963,13 +1962,14 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(cgrid,interpol
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://kananmehta.github.io/caltech/ph5/</guid>
-      <description>&lt;p&gt;Before I switched majors to mechanical engineering, I took a circuits class as part of the applied physics curriculum. It was largely about the applications of op-amps, along with some other useful active circuit elements like transistors and flip-flops. For the final project I designed a &amp;lsquo;clapper&amp;rsquo; circuit which would cycle between four states (00,10,01,11) to light up two LEDs in the four different configurations possible. The basic design was a condenser mic, a bandpass filter to prevent sounds like footsteps and speaking from triggering the device, a preamplifier, a hysteretic comparator or Schmitt trigger to convert the mic signal from analog to digital. The Schmitt trigger in turn outputs to a vibrator circuit, which includes a 555 timer, to convert the trigger event (a clap) to a fixed width pulse of the appropriate amplitude. Lastly, this feeds into two cascaded flip flops which each output to one of the two LEDs.&lt;/p&gt;
-&lt;p&gt;Although the block diagram is lost to time, I still have a nice demonstration video.
+      <description>&lt;p&gt;Before I switched majors to mechanical engineering, I took a circuits class as part of the applied physics curriculum. It was largely about the applications of op-amps, along with some other useful active circuit elements like transistors and flip-flops. For the final project I designed a &amp;lsquo;clapper&amp;rsquo; circuit which would cycle between four states (00,10,01,11) to light up two LEDs in the four different configurations possible. Sound is received by a condensor mic, then the preprocessing starts with a bandpass filter to prevent sounds like footsteps and speaking from triggering the device, a preamplifier, and a hysteretic comparator or Schmitt trigger to convert the mic signal from analog to digital. The Schmitt trigger in turn outputs to a vibrator circuit, which includes a 555 timer, to convert the trigger event (a clap) to a fixed width pulse of the appropriate amplitude. Lastly, this feeds into two cascaded flip flops which each output to one of the two LEDs.&lt;/p&gt;
+&lt;p&gt;For added convenience, I designed the system for a 5 V input and soldered power cables to a cannibalized flash drive plug to be able to power the system from a phone charger or computer.&lt;/p&gt;
+&lt;p&gt;Although the block diagram is lost to time, I still have a nice demonstration video.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/38NgKX1w4L8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-&lt;/p&gt;
+
 </description>
     </item>
     
@@ -1993,175 +1993,105 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(cgrid,interpol
       
       <guid>https://kananmehta.github.io/umd/heatsink/</guid>
       <description>&lt;p&gt;My first experience with analysis was a high school internship at the University of Maryland. My project was a simple demonstration of the use of fins on heatsinks. I simulated a small flat heat generator on a larger block with air flowing past the bottom surface to symbolize a processor on a circuit board with a fan for airflow. I used ANSYS APDL to write a few scripts that would automatically lay out fins of the desired shape and size on the bottom of the heatsink. Unsurprisingly, the fin configuration with the most surface area resulted in the lowest temperatures in the device due to the greater effect of convection.&lt;/p&gt;
+&lt;p&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://kananmehta.github.io/css/hugo-easy-gallery.css&#34; /&gt;
 
-
-
-
-
-
-
-
-    
-    &lt;link href=&#34;https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css&#34; rel=&#34;stylesheet&#34;&gt;
-
-
-
-    
-    &lt;script src=&#34;https://code.jquery.com/jquery-3.2.1.slim.min.js&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-
-
-
-&lt;style&gt;
-#slide-window {
-    position: relative;
-    width: 700px;
-    height: 520px;
-    overflow: hidden;
-    top: 0px;
-    left: 0px;
-}
-
-#slides-list {
-    width: 700px;
-    height: 520px;
-    position: absolute;
-    margin: 0px;
-    padding: 0px;
-    -webkit-transform: translate3d(0px, 0px, 0px);
-    transform: translate3d(0px, 0px, 0px);
-    transition: all 0.66s ease;
-    -webkit-transition: all 0.66s ease;
-}
-
-.slide {
-    list-style: none;
-    position: relative;
-    float: left;
-    margin: 0;
-    padding: 0;
-    width: 700px;
-    height: 520px;
-    background: #ccc;
-    text-align: center;
-    line-height: 100%;
-    background-size: cover;
-    background-position: 50% 50%;
-    color: #fff;
-    -webkit-transform: translate3d(0px, 0px, 0px);
-    -webkit-transform-style: preserve-3d;
-}
-
-.nav {
-    position: relative;
-    z-index: 9;
-    top: 45%;
-    cursor: pointer;
-    color: #3788cb;
-    opacity: 0.2;
-    transition: all 0.66s ease;
-    -webkit-transition: all 0.66s ease;
-}
-
-.nav:hover {
-    opacity: 1.0;
-}
-
-#left {
-    left: 3%;
-    float: left;
-}
-
-#right {
-    right: 3%;
-    float: right;
-}
-&lt;/style&gt;
-
-
-&lt;div id=&#34;slide-window&#34;&gt;
-    &lt;ol id=&#34;slides-list&#34;&gt;
-                &lt;li class=&#34;slide&#34; style=&#34;background-image:url(https://kananmehta.github.io/images/heatsink/control.png);&#34;&gt;&lt;/li&gt;
-                &lt;li class=&#34;slide&#34; style=&#34;background-image:url(https://kananmehta.github.io/images/heatsink/pin_fin2.png);&#34;&gt;&lt;/li&gt;
-                &lt;li class=&#34;slide&#34; style=&#34;background-image:url(https://kananmehta.github.io/images/heatsink/rec_fin3.png);&#34;&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-    &lt;span class=&#34;nav fa fa-chevron-left fa-3x&#34; id=&#34;left&#34;&gt;&lt;/span&gt;
-    &lt;span class=&#34;nav fa fa-chevron-right fa-3x&#34; id=&#34;right&#34;&gt;&lt;/span&gt;
+&lt;div class=&#34;gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/heatsink//control.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/heatsink//control.png&#34; alt=&#34;Control&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Control&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/heatsink//control.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/heatsink//pin_fin.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/heatsink//pin_fin.png&#34; alt=&#34;Pin fin&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Pin fin&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/heatsink//pin_fin.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
+				&lt;div class=&#34;box&#34;&gt;
+				  &lt;figure itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+				    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://kananmehta.github.io//images/heatsink//rectangular_fin.png&#39;);&#34; &gt;
+				      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://kananmehta.github.io//images/heatsink//rectangular_fin.png&#34; alt=&#34;Rectangular fin&#34; /&gt;
+				    &lt;/div&gt;
+			      &lt;figcaption&gt;
+		          &lt;p&gt;Rectangular fin&lt;/p&gt;
+			      &lt;/figcaption&gt;
+				    &lt;a href=&#34;https://kananmehta.github.io//images/heatsink//rectangular_fin.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+				  &lt;/figure&gt;
+				&lt;/div&gt;
 &lt;/div&gt;
+ 
 
-&lt;script&gt;
-sliderJQuery = jQuery.noConflict();
-sliderJQuery(function( $ ) {
-    $.global = new Object();
-    $.global.total = 0;
 
-    $(document).ready(function () {
-        var slideWindowWidth = $(&#39;#slide-window&#39;).width();
-        var slideCount = $(&#39;#slides-list li&#39;).length;
-        var totalSlidesWidth = slideCount * slideWindowWidth;
 
-        $.global.item = 0;
-        $.global.total = slideCount;
+  
 
-        $(&#39;.slide&#39;).css(&#39;width&#39;, slideWindowWidth + &#39;px&#39;);
-        $(&#39;#slides-list&#39;).css(&#39;width&#39;, totalSlidesWidth + &#39;px&#39;);
 
-        $(&#39;#left&#39;).click(function () {
-            resetAutoSlide();
-            performSlide(&#39;back&#39;);
-        });
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://kananmehta.github.io/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
 
-        $(&#39;#right&#39;).click(function () {
-            resetAutoSlide();
-            performSlide(&#39;forward&#39;);
-        });
 
-    });
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
 
-    function performSlide(direction) {
-        if (direction == &#39;back&#39;) {
-            var nextSlideId = $.global.item - 1;
-        }
-        if (direction == &#39;forward&#39;) {
-            var nextSlideId = $.global.item + 1;
-        }
 
-        if (nextSlideId == -1) {
-             
-            moveCss($.global.total - 1);
-        } else if (nextSlideId == $.global.total) {
-             
-            moveCss(0);
-        } else {
-             
-            moveCss(nextSlideId);
-        }
-    }
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
 
-    function moveCss(nextSlideId) {
-        var slideWindowWidth = $(&#39;#slide-window&#39;).width();
-        var margin = slideWindowWidth * nextSlideId;
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
 
-        $(&#39;#slides-list&#39;).css(&#39;transform&#39;, &#39;translate3d(-&#39; + margin + &#39;px,0px,0px)&#39;);
-
-        $.global.item = nextSlideId;
-    }
-
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
     
-      var autoSlide = parseInt(&#34;0&#34;, 10);
-      var autoSlideInterval;
-      function resetAutoSlide(){
-        if(autoSlide) {
-          if(autoSlideInterval) {
-            clearInterval(autoSlideInterval);
-          }
-          autoSlideInterval = setInterval(function(){
-            performSlide(&#39;forward&#39;);
-          }, autoSlide)
-        }
-      }
-      resetAutoSlide();
-});
-&lt;/script&gt;
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -2279,10 +2209,10 @@ sorts, graph theory, symbol tables, reduction, P = NP?, etc.&lt;/p&gt;
 &lt;h1 id=&#34;caltech&#34;&gt;Caltech&lt;/h1&gt;
 &lt;hr&gt;
 &lt;h6 id=&#34;mechanical-4-point-bendinghahahugoshortcode-s0-hbhb&#34;&gt;&lt;a href=&#34;https://kananmehta.github.io/caltech/4pt/&#34;&gt;&lt;strong&gt;[Mechanical] 4-Point Bending&lt;/strong&gt;&lt;/a&gt;&lt;/h6&gt;
-&lt;p&gt;Our final experiment, a 4-point load test on an aluminum bar. Results were used to confirm elastic modulus and 
+&lt;p&gt;Our final experiment, a 4-point load test on an aluminum bar. Results were again used to check elastic modulus and 
 Poisson&amp;rsquo;s ratio of aluminum.&lt;/p&gt;
 &lt;h6 id=&#34;mechanical-cantilever-beam-analysishahahugoshortcode-s1-hbhb&#34;&gt;&lt;a href=&#34;https://kananmehta.github.io/caltech/cantilever/&#34;&gt;&lt;strong&gt;[Mechanical] Cantilever Beam Analysis&lt;/strong&gt;&lt;/a&gt;&lt;/h6&gt;
-&lt;p&gt;For the final set of simulations, we analyzed a cantilever I-beam in simulation and a simple alumnimum bar in the lab.&lt;/p&gt;
+&lt;p&gt;For the next set of analyses, we analyzed a cantilever I-beam in simulation and a simple alumnimum bar in the lab.&lt;/p&gt;
 &lt;h6 id=&#34;mechanical-tensile-testinghahahugoshortcode-s2-hbhb&#34;&gt;&lt;a href=&#34;https://kananmehta.github.io/caltech/tensile/&#34;&gt;&lt;strong&gt;[Mechanical] Tensile Testing&lt;/strong&gt;&lt;/a&gt;&lt;/h6&gt;
 &lt;p&gt;Moving onto solids, we examined plastic and elastic deformation by simulating a tensile test on a &amp;lsquo;dogbone&amp;rsquo; geometry, 
 and later again compared our simulation to real-life experiment.&lt;/p&gt;
