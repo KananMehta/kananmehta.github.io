@@ -1463,6 +1463,7 @@ plt&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;imshow(cgrid,interpol
       
       <guid>https://kananmehta.github.io/caltech/pid/</guid>
       <description>&lt;p&gt;For the second project in my junior year design class, my team decided to design a ball-balancing mechanism in order to gain some experience with controls. The mechanical design was fairly simple. We mounted a plate onto a u-joint to allow it to pivot along the pitch and roll axes and connected arms to two perpendicular sides of the plate. We originally intended to use a resistive touch screen, but could not find one for a reasonable price. Luckily, I found the PixyCam, which allowed us to track the ball’s position visually using simple Arduino-compatible functions. After setting up the camera it was just a matter of applying the Arduino PID algorithm library to controlling the servos and tweaking the PID constant values for better performance. This project had fewer manufacturing restrictions so while some parts were still purchased or manufactured on a manual mill or lathe, others were cut with a waterjet or laser.&lt;/p&gt;
+&lt;p&gt;You may want to turn your volume down before viewing the second video.&lt;/p&gt;
 &lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/UKTgBAwl0NE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
